@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+        配置了一个叫myUser的bean
+        属性     uid          10
+                username    张三
+                password    123456
+    -->
+    <bean id="myUser" class="edu.xufe.entity.Users">
+        <property name="uid" value="10"></property>
+        <property name="username" value="张三"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+</beans>
