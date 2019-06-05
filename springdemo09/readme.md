@@ -8,6 +8,7 @@
     * 创建Dao的接口和实现类
     * 配置Service和Dao，交给Spring，及其他
 * 创建数据库与表
+
 ```mysql
 CREATE TABLE `account` (
       `id` int(11) NOT NULL AUTO_INCREMENT,
