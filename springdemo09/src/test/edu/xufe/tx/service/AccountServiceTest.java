@@ -17,6 +17,6 @@ public class AccountServiceTest {
 
     @Test
     public void testTransfer() {
-        accountService.transfer("如花","如花1",500d);
+        accountService.transfer("如花", "如花1", 500d);
     }
 }
