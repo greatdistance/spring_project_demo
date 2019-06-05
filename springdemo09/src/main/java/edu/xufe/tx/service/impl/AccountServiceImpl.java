@@ -34,7 +34,7 @@ public class AccountServiceImpl implements AccountService {
     public void transfer(String form, String to, Double money) {
         accountDao.outMoney(form, money);
         // 人为异常，测试异常转账时打开
-        int a = 5 / 0;
+        //int a = 5 / 0;
         accountDao.inMoney(to, money);
     }
 }
